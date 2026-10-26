@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #0f1117;
+  color: #e8e8ea;
+}
+.container { max-width: 720px; margin: 0 auto; padding: 32px 16px 80px; }
+.caption { color: #9a9aa5; line-height: 1.5; }
+textarea {
+  width: 100%; box-sizing: border-box; padding: 12px; font-size: 16px;
+  border-radius: 10px; border: 1px solid #333; background: #181b24; color: inherit;
+}
+.rounds { display: block; margin: 14px 0; }
+.rounds input { width: 100%; }
+button {
+  font-family: inherit; border: 0; border-radius: 10px; cursor: pointer;
+}
+.start {
+  padding: 12px 20px; font-size: 16px; background: #ff5a4f; color: white;
+}
+button:disabled { opacity: 0.5; cursor: wait; }
+.error { color: #ff7b72; }
+.bubble {
+  background: #181b24; border-radius: 12px; padding: 12px 16px; margin-top: 14px;
+  border-left: 4px solid #555;
+}
+.who { font-weight: 700; }
+.who span { font-weight: 400; color: #9a9aa5; font-size: 13px; }
+.bubble p { margin: 6px 0 0; line-height: 1.5; white-space: pre-wrap; }
+.summary {
+  margin-top: 28px; padding: 16px 20px; border-radius: 12px;
+  background: #1d2433; border: 1px solid #3a4560; line-height: 1.55;
+}
+.history { margin-top: 36px; }
+.history-item {
+  display: block; width: 100%; text-align: left; margin-top: 8px;
+  padding: 10px 14px; background: #181b24; color: #e8e8ea; font-size: 14px;
+}
+.history-item:hover:not(:disabled) { background: #222735; }
+/* ---------- Chat section ---------- */
+.chat { margin-top: 36px; }
+.picker { display: flex; gap: 8px; flex-wrap: wrap; margin: 12px 0; justify-content: center; }
+.pick {
+  padding: 8px 14px; background: #181b24; color: #e8e8ea;
+  border: 2px solid transparent; font-size: 14px;
+}
+.pick.active { background: #222735; }
+.chat-you {
+  background: #1d2433; border-radius: 12px; padding: 10px 16px;
+  margin-top: 14px; margin-left: 40px;
+}
+.chat-you p { margin: 4px 0 0; line-height: 1.5; white-space: pre-wrap; }
+.chips { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 14px; }
+.chip {
+  padding: 6px 12px; font-size: 13px; background: transparent;
+  color: #9a9aa5; border: 1px solid #333; border-radius: 999px;
+}
+.chip:hover:not(:disabled) { color: #e8e8ea; border-color: #666; }
+.chat-input { display: flex; gap: 8px; margin-top: 14px; }
+.chat-input input {
+  flex: 1; padding: 12px; font-size: 16px; border-radius: 10px;
+  border: 1px solid #333; background: #181b24; color: inherit;
+}
