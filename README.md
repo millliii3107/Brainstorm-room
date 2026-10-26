@@ -10,12 +10,6 @@ Brainstorm Room is a full-stack AI web app built with **React**, **Node.js + Exp
 
 ## 📸 Screenshots
 
-> Add your screenshots here. Create a `docs` folder, save images in it, and link them like this:
-
-```md
-![Debate screen](docs/debate.png)
-![Chat screen](docs/chat.png)
-```
 
 ---
 
